@@ -1,5 +1,9 @@
 # Swetrix FastMCP Server
 
+[![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](cursor://anysphere.cursor-deeplink/mcp/install?name=swetrix-fastmcp&config=eyJjb21tYW5kIjoicG5wbSIsImFyZ3MiOlsiLS1kaXIiLCIvVXNlcnMvYW5kcmVsYWRlbWFubi9EZXZlbG9wbWVudC92ZXJnaXNzYmVybGluL21jcC1zd2V0cml4Iiwic3RhcnQiXSwiZW52Ijp7IlNXRVRSSVhfQVBJX0tFWSI6InlvdXJfcGVyc29uYWxfYXBpX2tleSIsIlNXRVRSSVhfQkFTRV9VUkwiOiJodHRwczovL2FwaS5zd2V0cml4LmNvbSIsIlNXRVRSSVhfVElNRU9VVF9NUyI6IjE1MDAwIn19) [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](vscode:mcp/install?%7B%22name%22%3A%22swetrix-fastmcp%22%2C%22command%22%3A%22pnpm%22%2C%22args%22%3A%5B%22--dir%22%2C%22%2FUsers%2Fandrelademann%2FDevelopment%2Fvergissberlin%2Fmcp-swetrix%22%2C%22start%22%5D%2C%22env%22%3A%7B%22SWETRIX_API_KEY%22%3A%22your_personal_api_key%22%2C%22SWETRIX_BASE_URL%22%3A%22https%3A%2F%2Fapi.swetrix.com%22%2C%22SWETRIX_TIMEOUT_MS%22%3A%2215000%22%7D%7D)
+
+> The buttons above install with the `--dir` path already used in the config snippets below. Update it to your local clone location before installing, and fill in your real `SWETRIX_API_KEY` afterwards.
+
 TypeScript MCP server built with FastMCP that exposes core Swetrix APIs:
 
 - Statistics API (`/v1/log*`)
